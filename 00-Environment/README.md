@@ -109,8 +109,8 @@ Deactivate the virtual environment. `deactivate`
 * ipykernel
 
 ```bash
-$> pip install --upgrade pip
-$> pip install numpy scipy matplotlib ipykernel
+pip install --upgrade pip
+pip install numpy scipy matplotlib ipykernel
 ```
 (You can uninstall Python library using `pip uninstall numpy`)
 
