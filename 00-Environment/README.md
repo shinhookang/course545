@@ -104,3 +104,5 @@ $> pip install --upgrade pip
 $> pip install numpy scipy matplotlib ipykernel
 ```
 (You can uninstall Python library using `pip uninstall numpy`)
+
+<!-- ## Reference [PyEnv](https://github.com/pyenv/pyenv) -->
