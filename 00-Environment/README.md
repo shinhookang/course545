@@ -92,6 +92,15 @@ You can set python 3.11 globally by `pyenv global 3.11.0`
 
 (Undo `pyenv global system`)
 
+ 
+## Create a virtual environment
+Create a virtual environment. `python -m venv .venv`
+
+Activate the virtual environment. `source .venv/bin/activate`
+
+Deactivate the virtual environment. `deactivate`
+
+
 ## Install Python Libraries
 
 * numpy
@@ -104,5 +113,7 @@ $> pip install --upgrade pip
 $> pip install numpy scipy matplotlib ipykernel
 ```
 (You can uninstall Python library using `pip uninstall numpy`)
+
+Check the installed Python packages by `pip list`
 
 <!-- ## Reference [PyEnv](https://github.com/pyenv/pyenv) -->
