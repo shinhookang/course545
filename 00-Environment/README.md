@@ -132,6 +132,15 @@ pip install numpy scipy matplotlib ipykernel
 ```
 (You can uninstall Python library using `pip uninstall numpy`)
 
+Install JAX and JAXLIB for differentiable programming.
+If you have NVIDIA gpu, then run the following:
+```
+pip install --upgrade pip
+pip install jaxlib==0.4.28+cuda12.cudnn89 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install -U "jax[cuda12_pip]"==0.4.28
+```
+Otherwise `pip install -U jax` for CPU-only.
+
 Check the installed Python packages by `pip list`
 
 <!-- ## Reference [PyEnv](https://github.com/pyenv/pyenv) -->
