@@ -1,8 +1,8 @@
-# Course500 (2025 Spring)
+# Course545 (2025 Spring)
 ## Differentiable Programming
 
 * Instructor: Shinhoo Kang 
-* Class Time: Thu. (11:00-11:50) in-person 
+* Class Time: Thu. (10:00-10:50) in-person 
 * Office Hours: Wed. (13:00-15:00)
 
 <details open>
